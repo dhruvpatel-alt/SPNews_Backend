@@ -1,0 +1,8 @@
+{
+    "env":{
+        "DB_NAME":"NEWS",
+        "DB_PASSWORD":"dhRuv16o916",
+        "DB_USER":"devil1609"
+        
+    }
+}
