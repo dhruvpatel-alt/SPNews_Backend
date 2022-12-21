@@ -19,8 +19,10 @@ app.use(express.json());
 
 app.use('/api/news',router.get('/general',async (req,res)=>{
   try {
-    dbo.collection('general').find({}).toArray((err,result)=>{
+    dbo.collection('home').find({}).toArray((err,result)=>{
 if(err) throw err;
+res.status(200).json({result})
+
     })
    }
   catch (error) {
