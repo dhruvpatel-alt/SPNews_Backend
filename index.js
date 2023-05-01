@@ -2,7 +2,7 @@ var MongoClient = require('mongodb').MongoClient;
 const user=process.env.DB_USER;
 const pass=process.env.DB_PASSWORD;
 const name=process.env.DB_NAME;
-var url=`mongodb+srv://${user}:${pass}@cluster0.nsa5j.mongodb.net/${name}?retryWrites=true&w=majority`;
+var url=`mongodb+srv://dhruv1609:AdmFs1LMifmyzNkL@cluster0.nsa5j.mongodb.net/NEWSAPP`;
 var dbo;
 MongoClient.connect(url, function(err, db) {
   if (err) throw err;
